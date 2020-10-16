@@ -13,6 +13,10 @@ import Admin from './Components/Admin/Admin';
 import NotMatch from './Components/NotMatch/NotMatch';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Client from './Components/ClientPage/OrderService/Client/Client';
+import Contact from './Components/Contact/Contact';
+import Portfolio from './Components/Portfolio/Portfolio';
+import Team from './Components/Team/Team';
+import Navbar from './Components/Home/Navbar/Navbar';
 
 export const UserContext = createContext();
 function App() {
@@ -27,6 +31,15 @@ function App() {
      <PrivateRoute exact path="/client">
        <Client></Client>
      </PrivateRoute>
+     <Route path="/portfolio">
+       <Portfolio></Portfolio>
+     </Route>
+     <Route path="/team"> 
+       <Team></Team>
+     </Route>
+     <Route path="/contact">
+       <Contact></Contact>
+     </Route>
      <Route exact path="/admin">
        <Admin></Admin>
      </Route>
