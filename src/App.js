@@ -16,7 +16,6 @@ import Client from './Components/ClientPage/OrderService/Client/Client';
 import Contact from './Components/Contact/Contact';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Team from './Components/Team/Team';
-import Navbar from './Components/Home/Navbar/Navbar';
 
 export const UserContext = createContext();
 function App() {
